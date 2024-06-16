@@ -25,8 +25,68 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+
+    <script>
+      "use strict";
+      // d = 34;
+
+
+      let a = "Hello World";
+      console.log(a);
+
+
+      function hello(){
+        console.log("Manideep");
+      }
+
+      let mani = {
+        r: 69,
+        g: 96,
+        func: function add(number){
+          console.log("The Number is " + number);
+        }
+      }
+
+      document.addEventListener("click", function click(){
+        console.log("Clicked");
+        // alert("Bye Bye Jagan");
+        let conf = confirm("Are you sure?");
+        console.log(conf);
+      })
+
+      let arr = [22,33,44,55,66];
+
+      // function hell(number){
+      //   console.log("The Number is " + this);
+      // }
+
+      // let hell = (number) =>{
+      //   console.log("The Number is " + this);
+      // }
+      // hell();
+
+      let mobj = {
+
+        myfunc : (number) =>{
+          console.log("The Number is " + this);
+        }
+      }
+      mobj.myfunc();
+
+      setTimeout(() => {
+        console.log("W000000000");
+      }, 5000);
+      console.log("Hello World");
+
+
+    </script>
   </head>
   <body>
+
+    <h1>Hello World</h1>
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
